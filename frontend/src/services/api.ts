@@ -1,5 +1,5 @@
 // const BASE_URL = "http://localhost:3000/api"
-const BASE_URL = "https://personal-finance-tracker-backend-rfyp.onrender.com"
+const BASE_URL = "https://personal-finance-tracker-backend-rfyp.onrender.com/api"
 
 export async function fetchApi(endpoint: string, options: RequestInit = {}, auth: boolean = true) {
 	const token = localStorage.getItem("token")
