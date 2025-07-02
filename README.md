@@ -7,8 +7,11 @@ A **full-stack personal finance management web application** that allows users t
 ## 🚀 **Project Features**
 
 ✅ User authentication (signup & login)
+
 ✅ Add, edit, delete, filter, and search expenses
+
 ✅ Set monthly budgets with alerts at 80% and 100% usage
+
 ✅ Dashboard with:
 - Total spend this month
 - Most spent category
@@ -21,7 +24,9 @@ A **full-stack personal finance management web application** that allows users t
 - Suggests actionable tips to reduce overspending
 
 ✅ Responsive UI built with **React TypeScript + Material UI**
+
 ✅ Backend APIs built with **Node.js + Express + MongoDB**
+
 ✅ Python microservice using **Flask + Pandas**
 
 ---
