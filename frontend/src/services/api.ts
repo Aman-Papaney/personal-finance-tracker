@@ -17,7 +17,7 @@ export async function fetchApi(endpoint: string, options: RequestInit = {}, auth
 // Call Flask service for suggestions
 export async function fetchSuggestions(expenses: any[]) {
 	// Flask service runs on port 5000 by default
-	const FLASK_URL = "http://localhost:5000/suggestions"
+	const FLASK_URL = "https://personal-finance-tracker-python-service.onrender.com"
 	const res = await fetch(FLASK_URL, {
 		method: "POST",
 		headers: {"Content-Type": "application/json"},
