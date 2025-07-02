@@ -34,8 +34,11 @@ A **full-stack personal finance management web application** that allows users t
 ## 🗂️ **Monorepo Structure**
 
 personal-finance-tracker/
+
 ├── backend/ # Node.js + Express backend
+
 ├── frontend/ # React.js + TypeScript + Material UI frontend
+
 └── python-service/ # Flask API for suggestions
 
 
@@ -81,13 +84,13 @@ Create a .env file based on .env.example:
 
     MONGODB_URI=<your-mongodb-uri>
     JWT_SECRET=<your-jwt-secret>
-    PORT=5000
+    PORT=3000
 
 Run the server:
 
     npm run dev
 
-The backend runs on http://localhost:5000.
+The backend runs on http://localhost:3000.
 ### ✅ **4. Python Service**
 
 Navigate to the python-service folder:
